@@ -1,11 +1,6 @@
 <h2>Connexion</h2>
-
-<?php if (isset($error)) echo "<p style='color:red'>$error</p>"; ?>
-
-<form method="post">
-    <input type="text" name="username" placeholder="Username" required><br><br>
-    <input type="password" name="password" placeholder="Password" required><br><br>
-    <button>Connexion</button>
+<form method="post" action="">
+    Username: <input type="text" name="username" required><br>
+    Password: <input type="password" name="password" required><br>
+    <button type="submit">Se connecter</button>
 </form>
-
-<a href="index.php?action=register">Créer un compte</a>
