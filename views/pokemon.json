@@ -3,18 +3,78 @@
         "id": 1,
         "name": "Bulbizarre",
         "type": "Plante",
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "evolutions": [
+            {"id": 2, "name": "Herbizarre", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"},
+            {"id": 3, "name": "Florizarre", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"}
+        ]
     },
     {
         "id": 2,
-        "name": "Salamèche",
-        "type": "Feu",
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        "name": "Herbizarre",
+        "type": "Plante",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "evolutions": [
+            {"id": 3, "name": "Florizarre", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"}
+        ]
     },
     {
         "id": 3,
+        "name": "Florizarre",
+        "type": "Plante",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "evolutions": []
+    },
+    {
+        "id": 4,
+        "name": "Salamèche",
+        "type": "Feu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "evolutions": [
+            {"id": 5, "name": "Reptincel", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"},
+            {"id": 6, "name": "Dracaufeu", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"}
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Reptincel",
+        "type": "Feu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "evolutions": [
+            {"id": 6, "name": "Dracaufeu", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"}
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Dracaufeu",
+        "type": "Feu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "evolutions": []
+    },
+    {
+        "id": 7,
         "name": "Carapuce",
         "type": "Eau",
-        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "evolutions": [
+            {"id": 8, "name": "Carabaffe", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"},
+            {"id": 9, "name": "Tortank", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"}
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Carabaffe",
+        "type": "Eau",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "evolutions": [
+            {"id": 9, "name": "Tortank", "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"}
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Tortank",
+        "type": "Eau",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "evolutions": []
     }
 ]
